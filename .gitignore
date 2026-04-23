@@ -1,0 +1,9 @@
+# sub-repos already managed by their own git
+cicd-init/
+skills/
+
+# openclaw internal
+.consolidate-state.json
+.openclaw/
+__pycache__/
+*.pyc
