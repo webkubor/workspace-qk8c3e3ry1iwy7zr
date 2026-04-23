@@ -1,9 +1,11 @@
-# sub-repos already managed by their own git
-cicd-init/
-skills/
-
-# openclaw internal
+# === OpenClaw 内部文件（勿提交）===
 .consolidate-state.json
 .openclaw/
+
+# === 子仓库（各自独立管理）===
+cicd-init/
+
+# === 临时文件 ===
+task-summary_*.md
 __pycache__/
 *.pyc
